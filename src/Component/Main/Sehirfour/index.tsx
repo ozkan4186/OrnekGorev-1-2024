@@ -29,6 +29,7 @@ const Sehirfour = () => {
             height: "70%",
             borderRadius: "5px",
             backgroundColor: "#E1E1E1",
+            marginTop: "-4rem",
           }}
         >
           <h2

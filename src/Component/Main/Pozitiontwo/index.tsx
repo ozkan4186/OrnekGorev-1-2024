@@ -46,7 +46,7 @@ const Pozitiontwo = () => {
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              Anahtar Kelime
+              Pozisyon
               <span
                 className={`${
                   activeElement === "element1"
@@ -79,7 +79,7 @@ const Pozitiontwo = () => {
               <CiSearch className="w-18 absolute right-44 top-8 " />
               <input
                 type="text"
-                placeholder="Anahtar kelime giriniz"
+                placeholder="Pozizsyon ara"
                 className="ml-3 py-3 px-4 border border-gray-300 rounded-md"
               />
               <div className="flex flex-col justify-center -ml-20">
