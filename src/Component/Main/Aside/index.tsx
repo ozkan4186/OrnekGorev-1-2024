@@ -6,6 +6,15 @@ import Pozitionone from "../Pozitionone";
 import Pozitiontwo from "../Pozitiontwo";
 import Sehirone from "../Sehirone";
 import Sehirtwo from "../Sehirtwo";
+import Sehireight from "../Sehireight";
+import Sehireleven from "../Sehireleven";
+import Sehirfour from "../Sehirfour";
+import Sehirfive from "../Sehirfive";
+import Sehirnine from "../Sehirnine";
+import Sehirseven from "../Sehirseven";
+import Sehirsix from "../Sehirsix";
+import Sehirtree from "../Sehirtree";
+import Sehirtwelve from "../Sehirtwelve";
 
 export default function AccordionBasicExample(): JSX.Element {
   const [activeElement, setActiveElement] = useState("");
@@ -132,6 +141,15 @@ export default function AccordionBasicExample(): JSX.Element {
       <Pozitiontwo />
       <Sehirone />
       <Sehirtwo />
+      <Sehireight />
+      <Sehireleven />
+      <Sehirfour />
+      <Sehirfive />
+      <Sehirnine />
+      <Sehirseven />
+      <Sehirsix />
+      <Sehirtree />
+      <Sehirtwelve />
     </>
   );
 }

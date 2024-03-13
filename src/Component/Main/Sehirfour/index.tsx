@@ -4,8 +4,10 @@ import { CiSearch } from "react-icons/ci";
 import Pozition from "../Pozitionone";
 import Pozitionone from "../Pozitionone";
 import Pozitiontwo from "../Pozitiontwo";
+import Sehirone from "../Sehirone";
+import Sehirtwo from "../Sehirtwo";
 
-const Sehirtwo = () => {
+const Sehirfour = () => {
   const [activeElement, setActiveElement] = useState("");
 
   const handleClick = (value: string) => {
@@ -27,7 +29,6 @@ const Sehirtwo = () => {
             height: "70%",
             borderRadius: "5px",
             backgroundColor: "#E1E1E1",
-            marginTop: 0,
           }}
         >
           <h2
@@ -130,4 +131,4 @@ const Sehirtwo = () => {
     </>
   );
 };
-export default Sehirtwo;
+export default Sehirfour;
