@@ -4,10 +4,8 @@ import { CiSearch } from "react-icons/ci";
 import Pozition from "../Pozitionone";
 import Pozitionone from "../Pozitionone";
 import Pozitiontwo from "../Pozitiontwo";
-import Sehirone from "../Sehirone";
-import Sehirtwo from "../Sehirtwo";
 
-export default function AccordionBasicExample(): JSX.Element {
+const Sehirtwo = () => {
   const [activeElement, setActiveElement] = useState("");
 
   const handleClick = (value: string) => {
@@ -128,10 +126,7 @@ export default function AccordionBasicExample(): JSX.Element {
           </TECollapse>
         </div>
       </div>
-      <Pozitionone />
-      <Pozitiontwo />
-      <Sehirone />
-      <Sehirtwo />
     </>
   );
-}
+};
+export default Sehirtwo;
