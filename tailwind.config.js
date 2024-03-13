@@ -3,13 +3,13 @@
 
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/tw-elements/js/**/*.js",
   ],
   theme: {
-    extend: {
-      
-    },
+    extend: {},
   },
-  plugins: [],
-}
-
+  darkMode: "class",
+  plugins: [require("tw-elements/plugin.cjs")],
+};

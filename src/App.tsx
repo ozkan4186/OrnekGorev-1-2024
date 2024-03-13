@@ -1,11 +1,11 @@
+import Aside from "./Component/Main/Aside";
 
 const App: React.FC = () => {
   return (
-   <div>Doldurulcak</div>
+    <div>
+      <Aside />
+    </div>
   );
 };
-
-
-
 
 export default App;
